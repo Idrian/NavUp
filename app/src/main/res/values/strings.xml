@@ -5,4 +5,6 @@
     <string name="user_password">Password</string>
     <string name="button_Register">Register</string>
     <string name="button_guestLogin">Guest</string>
+    <string name="user_email">Email@example.com</string>
+    <string name="Back">Back</string>
 </resources>

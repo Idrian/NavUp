@@ -5,18 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class registerPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register_page);
     }
 
-    /*goes to register page when register clicked */
-    public void go_to_registerPage(View view)
+    /*goes back to Login page when back clicked
+    public void go_back(View view)
     {
-        Intent intent = new Intent(this, registerPage.class);
+        Intent intent = new Intent(this, this.getParent().getClass());
         startActivity(intent);
-    }
+    }*/
 }
